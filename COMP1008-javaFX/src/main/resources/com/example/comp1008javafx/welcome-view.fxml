@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMouseMoved="#onMouseMoved" prefHeight="800.0" prefWidth="700.0" style="-fx-border-color: orange; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.comp1008javafx.WelcomeController">
+   <children>
+      <Label layoutX="300.0" layoutY="25.0" text="Welcome to Our App" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="264.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/georgian.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSample" fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="219.0" onMouseClicked="#onImageMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/sample.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSoccer" fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="244.0" onMouseClicked="#onImageMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/soccer.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLogin" fitHeight="150.0" fitWidth="200.0" layoutX="499.0" layoutY="219.0" onMouseClicked="#onImageMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/login.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCalculator" fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="424.0" onMouseClicked="#onImageMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/calc.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgGrades" fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="430.0" onMouseClicked="#onImageMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/grades.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="109.0" layoutY="369.0" text="Sample View" />
+      <Label layoutX="334.0" layoutY="369.0" text="Soccer" />
+      <Label layoutX="555.0" layoutY="369.0" text="Login" />
+      <Label layoutX="109.0" layoutY="580.0" text="Calculator" />
+      <Label layoutX="348.0" layoutY="580.0" text="Grades" />
+      <Label layoutX="184.0" layoutY="683.0" text="Content">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="733.0" text="Result">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="content" layoutX="253.0" layoutY="681.0" onKeyPressed="#onKeyPressed" />
+      <Button layoutX="432.0" layoutY="679.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="result" alignment="CENTER" layoutX="246.0" layoutY="710.0" style="-fx-border-color: black; -fx-border-width: 5;" text="LABEL">
+         <padding>
+            <Insets bottom="20.0" left="100.0" right="100.0" top="20.0" />
+         </padding>
+      </Label>
+   </children>
+</AnchorPane>

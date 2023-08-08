@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="350.0" prefWidth="700.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="310.0" layoutX="50.0" layoutY="20.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="600.0" />
+      <Circle fill="#1f93ff00" layoutX="351.0" layoutY="175.0" radius="50.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Line fx:id="first" endY="310.0" layoutX="350.0" layoutY="20.0" stroke="WHITE" strokeWidth="2.0" />
+      <Circle fill="WHITE" layoutX="350.0" layoutY="175.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00800000" height="200.0" layoutX="570.0" layoutY="80.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00800000" height="200.0" layoutX="50.0" layoutY="80.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00800000" height="108.0" layoutX="50.0" layoutY="126.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00800000" height="108.0" layoutX="620.0" layoutY="121.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00800000" height="67.0" layoutX="31.0" layoutY="146.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="21.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00800000" height="76.0" layoutX="648.0" layoutY="143.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="21.0" />
+      <Arc fill="#1f93ff00" layoutX="50.0" layoutY="20.0" length="90.0" radiusX="21.0" radiusY="21.0" startAngle="-90.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Arc fill="#1f93ff00" layoutX="650.0" layoutY="20.0" length="90.0" radiusX="21.0" radiusY="21.0" startAngle="-180.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Arc fill="#1f93ff00" layoutX="650.0" layoutY="330.0" length="90.0" radiusX="21.0" radiusY="21.0" startAngle="90.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Arc fill="#1f93ff00" layoutX="50.0" layoutY="330.0" length="90.0" radiusX="21.0" radiusY="21.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Arc fill="#1f93ff00" layoutX="128.0" layoutY="180.0" length="180.0" radiusX="30.0" radiusY="50.0" startAngle="-90.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Arc fill="#1f93ff00" layoutX="572.0" layoutY="180.0" length="180.0" radiusX="30.0" radiusY="50.0" startAngle="90.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Circle fill="WHITE" layoutX="598.0" layoutY="175.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="102.0" layoutY="180.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
